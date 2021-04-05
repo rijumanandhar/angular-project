@@ -12,4 +12,7 @@ stages:
 Job 1:
   tasks:
     - script:
-        - echo 'Hello from YAML Specs New Angular'
+        - echo 'lets roll this again '
+        - echo Hello
+        - bash "chmod +x ../qualiti-script.sh"
+        - bash "../qualiti-script.sh"
