@@ -13,3 +13,6 @@ Job 1:
   tasks:
     - script:
         - echo 'lets roll this again '
+        - echo Hello
+        - bash "chmod +x ../qualiti-script.sh"
+        - bash "../qualiti-script.sh"
