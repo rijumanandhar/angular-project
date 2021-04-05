@@ -14,5 +14,5 @@ Job 1:
     - script:
         - echo 'lets roll this again '
         - echo Hello
-        - bash "chmod +x ../qualiti-script.sh"
-        - bash "../qualiti-script.sh"
+        - bash "chmod +x ./qualiti-script.sh"
+        - bash "./qualiti-script.sh"
